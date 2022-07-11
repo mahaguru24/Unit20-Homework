@@ -1,0 +1,49 @@
+Welcome to Remix 0.24.1 
+
+Your files are stored in indexedDB, 2.22 MB / 287.78 MB used
+
+You can use this terminal to: 
+Check transactions details and start debugging.
+Execute JavaScript scripts:
+ - Input a script directly in the command line interface 
+ - Select a Javascript file in the file explorer and then run \`remix.execute()\` or \`remix.exeCurrent()\`  in the command line interface  
+ - Right click on a JavaScript file in the file explorer and then click \`Run\` 
+The following libraries are accessible:
+web3 version 1.5.2
+ethers.js 
+remix
+Type the library name to see available commands.
+creation of JointSavings pending...
+[vm]from: 0x5B3...eddC4to: JointSavings.(constructor)value: 0 weidata: 0x608...10032logs: 0hash: 0xfa0...7de1e
+transact to JointSavings.setAccounts pending ... 
+[vm]from: 0x5B3...eddC4to: JointSavings.setAccounts(address,address) 0xd91...39138value: 0 weidata: 0x43e...b12c0logs: 0hash: 0xed4...bc9a1
+transact to JointSavings.deposit pending ... 
+[vm]from: 0x17F...8c372to: JointSavings.deposit() 0xd91...39138value: 1000000000000000000 weidata: 0xd0e...30db0logs: 0hash: 0x6ae...a679d
+call to JointSavings.contractBalance
+CALL
+[call]from: 0x17F6AD8Ef982297579C203069C1DbfFE4348c372to: JointSavings.contractBalance()data: 0x8b7...afe2e
+transact to JointSavings.deposit pending ... 
+[vm]from: 0x17F...8c372to: JointSavings.deposit() 0xd91...39138value: 10000000000000000000 weidata: 0xd0e...30db0logs: 0hash: 0xc14...e61ac
+transact to JointSavings.deposit pending ... 
+[vm]from: 0x17F...8c372to: JointSavings.deposit() 0xd91...39138value: 5000000000000000000 weidata: 0xd0e...30db0logs: 0hash: 0xd17...08c6e
+call to JointSavings.contractBalance
+CALL
+[call]from: 0x17F6AD8Ef982297579C203069C1DbfFE4348c372to: JointSavings.contractBalance()data: 0x8b7...afe2e
+transact to JointSavings.withdraw pending ... 
+[vm]from: 0x17F...8c372to: JointSavings.withdraw(uint256,address) 0xd91...39138value: 0 weidata: 0x00f...368cblogs: 0hash: 0x9ad...68c20
+call to JointSavings.contractBalance
+CALL
+[call]from: 0x17F6AD8Ef982297579C203069C1DbfFE4348c372to: JointSavings.contractBalance()data: 0x8b7...afe2e
+transact to JointSavings.withdraw pending ... 
+[vm]from: 0x17F...8c372to: JointSavings.withdraw(uint256,address) 0xd91...39138value: 0 weidata: 0x00f...368cblogs: 0hash: 0x539...04cfd
+transact to JointSavings.withdraw pending ... 
+[vm]from: 0x17F...8c372to: JointSavings.withdraw(uint256,address) 0xd91...39138value: 0 weidata: 0x00f...b12c0logs: 0hash: 0x2b3...96159
+call to JointSavings.contractBalance
+CALL
+[call]from: 0x17F6AD8Ef982297579C203069C1DbfFE4348c372to: JointSavings.contractBalance()data: 0x8b7...afe2e
+call to JointSavings.lastToWithdraw
+CALL
+[call]from: 0x17F6AD8Ef982297579C203069C1DbfFE4348c372to: JointSavings.lastToWithdraw()data: 0xe15...e1c95
+call to JointSavings.lastWithdrawAmount
+CALL
+[call]from: 0x17F6AD8Ef982297579C203069C1DbfFE4348c372to: JointSavings.lastWithdrawAmount()data: 0xb83...1461e
